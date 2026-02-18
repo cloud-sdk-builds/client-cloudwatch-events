@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudwatch-events`](https://www.npmjs.com/package/@aws-sdk/client-cloudwatch-events/v/3.109.0).
+[`@aws-sdk/client-cloudwatch-events`](https://www.npmjs.com/package/@aws-sdk/client-cloudwatch-events/v/3.110.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.109.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.110.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-PbHqi8NktavtosABbfoE0ofM0gVoI7qPXuj4InIPQfNzgvfdK5iP5+iYoj5fzv8t
+sha384-YNO5VI4zl2X6FwiWOig6zqSy+yX8TFe3Q4icEnkYYh4wNtaC9itJDAqGnKI+Cp0W
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.109.0/index.min.mjs"
+            "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.110.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.109.0/index.min.mjs": "sha384-PbHqi8NktavtosABbfoE0ofM0gVoI7qPXuj4InIPQfNzgvfdK5iP5+iYoj5fzv8t"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.110.0/index.min.mjs": "sha384-YNO5VI4zl2X6FwiWOig6zqSy+yX8TFe3Q4icEnkYYh4wNtaC9itJDAqGnKI+Cp0W"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.109.0/index.min.mjs"
+                        "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.110.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.109.0/index.min.mjs": "sha384-PbHqi8NktavtosABbfoE0ofM0gVoI7qPXuj4InIPQfNzgvfdK5iP5+iYoj5fzv8t"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.110.0/index.min.mjs": "sha384-YNO5VI4zl2X6FwiWOig6zqSy+yX8TFe3Q4icEnkYYh4wNtaC9itJDAqGnKI+Cp0W"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.109.0`)
+* Always pin to a specific version (`@3.110.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudwatch-events/blob/refs/tags/3.109.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudwatch-events/blob/refs/tags/3.110.0/LICENSE
 ```
 
 ---
