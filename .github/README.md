@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cloudwatch-events`](https://www.npmjs.com/package/@aws-sdk/client-cloudwatch-events/v/3.1071.0).
+[`@aws-sdk/client-cloudwatch-events`](https://www.npmjs.com/package/@aws-sdk/client-cloudwatch-events/v/3.1072.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-cloudwatch-events - [https://cloud-sdk-builds.github.io/?sdk=client-cloudwatch-events](https://cloud-sdk-builds.github.io/?sdk=client-cloudwatch-events)
-- @aws-sdk/client-cloudwatch-events v3.1071.0 - [https://cloud-sdk-builds.github.io/?sdk=client-cloudwatch-events&version=3.1071.0](https://cloud-sdk-builds.github.io/?sdk=client-cloudwatch-events&version=3.1071.0)
+- @aws-sdk/client-cloudwatch-events v3.1072.0 - [https://cloud-sdk-builds.github.io/?sdk=client-cloudwatch-events&version=3.1072.0](https://cloud-sdk-builds.github.io/?sdk=client-cloudwatch-events&version=3.1072.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1071.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1072.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-THuFud4DnLbffFcf30XrutItr0wm43Dr0Y3ONKaxRI8KmNtbfpOp1EOCXfts0Oww
+sha384-IL7koClVGUvDWRNhrCzKW9cNkd6ZWd5gIbRhTfLD6d3IXoxjTHUAGH9ijgWT86tw
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1071.0/index.min.mjs"
+            "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1072.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1071.0/index.min.mjs": "sha384-THuFud4DnLbffFcf30XrutItr0wm43Dr0Y3ONKaxRI8KmNtbfpOp1EOCXfts0Oww"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1072.0/index.min.mjs": "sha384-IL7koClVGUvDWRNhrCzKW9cNkd6ZWd5gIbRhTfLD6d3IXoxjTHUAGH9ijgWT86tw"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1071.0/index.min.mjs"
+                        "@aws-sdk/client-cloudwatch-events": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1072.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1071.0/index.min.mjs": "sha384-THuFud4DnLbffFcf30XrutItr0wm43Dr0Y3ONKaxRI8KmNtbfpOp1EOCXfts0Oww"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cloudwatch-events@3.1072.0/index.min.mjs": "sha384-IL7koClVGUvDWRNhrCzKW9cNkd6ZWd5gIbRhTfLD6d3IXoxjTHUAGH9ijgWT86tw"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1071.0`)
+* Always pin to a specific version (`@3.1072.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cloudwatch-events/blob/refs/tags/3.1071.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cloudwatch-events/blob/refs/tags/3.1072.0/LICENSE
 ```
 
 ---
